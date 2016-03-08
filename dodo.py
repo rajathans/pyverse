@@ -14,6 +14,7 @@ def hello(s, w):
 	k =  open("test.xml", "wb")
 	k.write(xml)
 	k.close()
+	#yoyo
 
 	doc = lxml.etree.parse('test.xml')
 	count = int(doc.xpath('count(//entry)'))
